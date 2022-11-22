@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.link-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #262626;
+  text-decoration: none;
+}
+.post-user-details {
+  height: 60px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.post-user-border {
+  background-image: radial-gradient(circle, #e20337, #c60188, #7700c3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  padding: 2px;
+  border-radius: 100%;
+}
+.post-user-image {
+  height: 26px;
+  width: 26px;
+  border-radius: 100%;
+  border: 2px solid #fff;
+}
+.poste-user-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.post-image {
+  width: 100%;
+}
+.li-item {
+  border: 1px solid #dbdbdb;
+  padding: 0px;
+  margin: 20px;
+  border-radius: 4px;
+}
+.bottom-content {
+  padding: 15px;
+}
+.icons {
+  font-size: 22px;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.likes-count {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+.caption {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+.comments-div {
+  display: flex;
+}
+.comment-user {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  margin-right: 10px;
+}
+
+.user-comment {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+.created-at {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #989898;
+}
+.content-marigin {
+  margin-bottom: 8px;
+}
+.like-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.isLikedIconRed {
+  width: 100%;
+  height: 100%;
+  color: red;
+}
+.plain-heart.path {
+  width: 23.4px;
+  height: 18px;
+  font-size: 25px;
+}
+.red-heart.path {
+  width: 23.4px;
+  height: 18px;
+  font-size: 25px;
+}
+/* .red-like-icon {
+  width: 19.83px;
+  height: 16.587px;
+}
+.like-icon {
+  width: 23.24px;
+  height: 20px;
+} */
+. @media screen and (max-width: 767px) {
+  .li-item {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 4px;
+  }
+  .post-user-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    padding: 2px;
+    border-radius: 100%;
+  }
+  .post-user-image {
+    border-radius: 100%;
+    border: 2px solid #fff;
+    background-color: #fff;
+  }
+  .post-user-image {
+    width: 30px;
+    height: 30px;
+  }
+}

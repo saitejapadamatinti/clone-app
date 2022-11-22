@@ -1,0 +1,235 @@
+* {
+  color: #262626;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  background-color: #fafafa;
+  width: 100%;
+}
+.main-div-container {
+  width: 70%;
+  margin-top: 20px;
+}
+.user-details-div {
+  display: flex;
+}
+.user-profile-pic-div {
+  margin-right: 80px;
+}
+.user-profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+}
+.user-name-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 32px;
+}
+.post-following-followers-div {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.post-count {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.post {
+  font-weight: 400;
+}
+.user-insta-id {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.user-bio-data {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.margin-bottom-div {
+  margin-bottom: 15px;
+}
+
+/* stories Data */
+.stories-main-div {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.story-img-div {
+  width: 86px;
+  height: 86px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #dbdbdb;
+  margin-right: 40px;
+}
+.story-image {
+  width: 78px;
+  height: 78px;
+  border-radius: 100%;
+}
+.horizantal-line {
+  border: 0.5px solid #c6c6c6;
+}
+
+/* post content */
+.post-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+}
+.grid-icon {
+  width: 16.88px;
+  height: 16.88px;
+  margin-right: 10px;
+}
+.post-head {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+}
+.ul-item {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.poste-image {
+  margin-bottom: 20px;
+  width: 32%;
+}
+.post-image {
+  width: 100%;
+}
+.user-details-div-mobile {
+  display: none;
+}
+.no-post-camera-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+.no-pos-camera {
+  padding: 30px;
+  border: 2px solid #262626;
+  border-radius: 100%;
+  font-size: 150px;
+  color: #262626;
+}
+.no-post-head {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 48px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .main-div {
+    padding-top: 0px;
+  }
+  .main-div-container {
+    width: 90%;
+  }
+  .user-details-div-mobile {
+    display: block;
+  }
+  .user-details-div {
+    display: none;
+  }
+  .user-name-heading-mobile {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .user-profile-pic-div-mobile {
+    display: flex;
+  }
+  .user-profile-pic-mobile {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    margin-right: 20px;
+  }
+  .post-following-followers-div-mobile {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+  }
+  .following-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .post-count-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .post-count {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .post {
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .margin-bottom-div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .stories-main-div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .horizantal-line {
+    width: 100%;
+  }
+  .post-div {
+    margin-top: 20px;
+  }
+
+  .no-pos-camera {
+    padding: 20px;
+
+    font-size: 100px;
+  }
+  .no-post-head {
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 20px;
+  }
+}

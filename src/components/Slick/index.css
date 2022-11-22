@@ -1,0 +1,74 @@
+.slick-main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.slick-cont {
+  margin-top: 30px;
+}
+.slick-div {
+  width: 64%;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-container {
+  width: 80%;
+  max-width: 1100px;
+  margin-top: 10px;
+}
+
+/* You can change the CSS color to style the Next and 
+Previous Arrow buttons according to your project */
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+.story-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.each-story {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slick-item {
+  text-align: center;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.story-para {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #262626;
+  margin-top: 8px;
+}
+
+@media screen and (max-width: 767px) {
+  .story-image {
+    width: 50px;
+    height: 50px;
+  }
+  /* .slick-track {
+    transform: translate3d(0px, 0px, 0px) !important;
+  } */
+  .slick-div {
+    width: 100%;
+  }
+  .slick-cont {
+    margin-top: 20px;
+  }
+}

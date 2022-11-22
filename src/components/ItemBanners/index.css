@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+.home-main-full-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.home-main-div {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.home-ul-item {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .home-main-div {
+    width: 100%;
+  }
+}
